@@ -6,6 +6,16 @@
     font-family: Arial, Helvetica neue, sans-serif;
 }
 
+/* HR BARS */
+.hr-wht{
+    height: 3px;
+    background-color: #ffffff;
+}
+
+.hr-blk{
+    height: 3px;
+    background-color: black;
+}
 
 /* HEADER SECTION */
 header :first-child .col-12{
@@ -31,6 +41,7 @@ header :nth-child(2) .col-12{
 .contain > :first-child{
     width: 30%;
     height: 100%;
+    font-size: 22px;
     /* flex */
     display: flex;
     align-items: center;
@@ -40,8 +51,7 @@ header :nth-child(2) .col-12{
 .contain > :nth-child(2){
     width: 30%;
     height: 100%;
-    /* DEBUG */
-    border: 1px solid blue;
+    font-size: 16px;
     /* flex */
     display: flex;
     align-items: center;
@@ -49,9 +59,52 @@ header :nth-child(2) .col-12{
 }
 
 
+/* Jumbotron */
+#jumbo{
+    padding: 30px;
+    color: #ffffff;
+    /* flex */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#jumbo div img{
+    width: 200px;
+}
+
+#jumbo h2{
+    font-size: 40px;    
+}
+
+#jumbo .row{
+    color: #ffffff;
+    width: 250px;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-5 hr{
+    font-size: 20px;
+}
+
+
 /* MAIN SECTION */
+main > .row{
+    padding: 30px;
+}
+
 main :first-child .col-12{
     min-height: 500px;
+    /* flex */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 main :nth-child(2) .col-12{
@@ -63,6 +116,37 @@ main :nth-child(3) .col-12{
     min-height: 350px;
 }
 
+/* PORTFOLIO */
+main .col-12 .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 220px;
+}
+
+/* grill part */
+#grill{
+    width: 80%;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* DEBUG */
+}
+
+#grill div{
+
+    /* DEBUG */
+    width: 250px;
+    
+}
+
+#grill div img{
+    width: 100%;
+    border-radius: 20px;
+}
 
 
 /* FOOTER SECTION */
