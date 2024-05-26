@@ -127,7 +127,7 @@ main .col-12 .row{
 
 /* grill part */
 #grill{
-    width: 80%;
+    max-width: 1000px;
     /* flex */
     display: flex;
     justify-content: space-between;
