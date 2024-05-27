@@ -90,19 +90,19 @@
 }
 
 
-/* MAIN SECTION */
-main > :first-child{
+/* MAIN SECTION    first settings to fix*/
+/* main > :first-child{
     padding: 30px;
 }
 
 main :first-child .col-12{
     min-height: 500px;
-    /* flex */
+   
     display: flex;
     align-items: center;
     flex-direction: column;
 
-}
+} */
 
 main :nth-child(2) .col-12{
     background-color: #1abc9c;
@@ -114,13 +114,13 @@ main :nth-child(3) .col-12{
 }
 
 /* PORTFOLIO */
-main .col-12 .row{
+/* main .col-12 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
     width: 220px;
-}
+} */
 
 /* grill part */
 #grill{

@@ -29,3 +29,31 @@ header #jumbo{
 #jumbo img{
     display: inline-block;
 }
+
+/* MAIN SECTION */
+
+/* Cards */
+#card img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* BACKGROUND AND COLOR */
+main > :nth-child(2){
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+/* Paragraph */
+.row p{
+    text-align: left;
+}
+
+/* Button */
+#download{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 20px;
+}
