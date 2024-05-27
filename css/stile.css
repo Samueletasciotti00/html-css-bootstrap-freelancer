@@ -25,3 +25,7 @@ header #jumbo{
     color: #ffffff;
     min-height: 400px;
 }
+
+#jumbo img{
+    display: inline-block;
+}
