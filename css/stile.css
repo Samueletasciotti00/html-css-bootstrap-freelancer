@@ -23,7 +23,7 @@
 header #jumbo{
     background-color: #1abc9c;
     color: #ffffff;
-    min-height: 400px;
+    width: 100vw;
 }
 
 #jumbo img{
@@ -42,6 +42,7 @@ header #jumbo{
 main > :nth-child(2){
     background-color: #1abc9c;
     color: #ffffff;
+    width: 100vw;
 }
 
 /* Paragraph */
@@ -78,7 +79,7 @@ main > :nth-child(2){
 footer{
     background-color: #3a546d;
     color: #ffffff;
-    min-height: 200px;
+    width: 100vw;
 }
 
 footer :nth-child(2) .col-12{
@@ -94,3 +95,34 @@ footer :nth-child(2) .col-12{
     width: 40px;
     padding: 10px;
 }
+
+
+/* HOVER */
+.over{
+    position: absolute;
+    top: 0;
+    width: 95%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.over i{
+    text-align: center;
+    margin-top: 27%;
+    font-size: 64px;
+    color: #ffffff;
+    opacity: 0;
+}
+
+.relat{
+    position: relative;
+}
+
+
+.over:hover{
+   background-color: rgba(100,100,100,0.7)
+}
+
+.over:hover i{
+    opacity: 1;
+ }
