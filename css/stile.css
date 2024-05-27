@@ -5,3 +5,23 @@
     font-family: Arial, Helvetica neue, sans-serif;
 }
 
+/* ?? DEBUG ?? */
+.debug{
+    border: 1px solid red;
+    min-height: 200px;
+}
+
+/* HEADER */
+
+/* NAV */
+#navigator .col-12{
+    background-color: #2c3e50;
+    min-height: 100px;
+}
+
+/* JUMBO */
+header #jumbo{
+    background-color: #1abc9c;
+    color: #ffffff;
+    min-height: 400px;
+}
